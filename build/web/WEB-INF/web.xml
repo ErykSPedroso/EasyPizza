@@ -5,9 +5,17 @@
         <servlet-name>PrimeiraServlet</servlet-name>
         <servlet-class>br.com.pizzaria.controller.PrimeiraServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>SegundaSerlvet</servlet-name>
+        <servlet-class>br.com.pizzaria.controller.SegundaSerlvet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>PrimeiraServlet</servlet-name>
         <url-pattern>/PrimeiraServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>SegundaSerlvet</servlet-name>
+        <url-pattern>/SegundaSerlvet</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <!--<welcome-file>index.html</welcome-file>
